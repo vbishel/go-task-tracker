@@ -34,7 +34,7 @@ func Add() {
 	data = append(data, &Task{
 		ID:          nextId,
 		Description: description,
-		Status:      "in-progress",
+		Status:      "todo",
 		CreatedAt:   time.Now().UTC(),
 		UpdatedAt:   time.Now().UTC(),
 	})

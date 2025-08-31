@@ -15,7 +15,7 @@ func Update() {
 	taskID, err := strconv.Atoi(os.Args[2])
 
 	if err != nil {
-		log.Fatal("Incorret task ID")
+		log.Fatal("Incorrect task ID")
 	}
 
 	tasks, file := GetTasksFromJSON()
